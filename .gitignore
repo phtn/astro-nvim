@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editor state
+.idea/
+.vscode/
+Session.vim
+.netrwhist
+
+# Neovim/Vim swap and backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*~
+
+# Local Lua tooling overrides
+.luarc.json
+.luarc.jsonc
+
+# Logs
+*.log
