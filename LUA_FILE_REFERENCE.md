@@ -16,6 +16,7 @@
 | `lua/config/astrocore.lua` | AstroNvim Core | Owns editor options and global non-plugin-specific mappings. |
 | `lua/config/astrolsp.lua` | AstroNvim Core | Owns AstroLSP features, format-on-save, server tuning, and LSP mappings. |
 | `lua/config/astroui.lua` | AstroNvim Core | Owns the selected colorscheme and AstroUI icon/highlight settings. |
+| `lua/config/lualine.lua` | Plugin Specs | Owns the custom Evil Lualine statusline layout and Moonfly-tuned palette. |
 | `lua/plugins/astrocore.lua` | AstroNvim Core | Thin wrapper that connects AstroCore to `lua/config/astrocore.lua`. |
 | `lua/plugins/astrolsp.lua` | AstroNvim Core | Thin wrapper that connects AstroLSP to `lua/config/astrolsp.lua`. |
 | `lua/plugins/astroui.lua` | AstroNvim Core | Thin wrapper that connects AstroUI to `lua/config/astroui.lua`. |
@@ -30,6 +31,7 @@
 | `lua/plugins/editing.lua` | Plugin Specs | Owns editing behavior plugins such as autopairs, snippets, and move.vim. |
 | `lua/plugins/workflow.lua` | Plugin Specs | Owns workflow helpers such as todo comments and `fff.nvim`. |
 | `lua/plugins/lsp_tools.lua` | Plugin Specs | Owns LSP-adjacent helper plugins such as `nvim-lspimport`. |
+| `lua/plugins/lualine.lua` | Plugin Specs | Hands bottom statusline rendering to lualine while leaving Heirline tabline/winbar intact. |
 | `lua/polish.lua` | Escape Hatch | Reserved for final-stage tweaks that do not belong in a scoped module. |
 
 ## Organization Rules
