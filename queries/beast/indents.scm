@@ -1,0 +1,20 @@
+; Beast indents — indentation opens template, component, and source blocks.
+[
+  (element)
+  (component_declaration)
+  (module_declaration)
+  (setup_declaration)
+  (if_clause)
+  (elseif_clause)
+  (else_clause)
+  (each_statement)
+  (empty_clause)
+  (switch_statement)
+  (case_clause)
+  (default_clause)
+  (try_clause)
+  (pending_clause)
+  (catch_clause)
+  (fragment_statement)
+  (style_statement)
+] @indent.begin
