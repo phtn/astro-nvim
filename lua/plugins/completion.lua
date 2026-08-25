@@ -1,5 +1,3 @@
--- Enhanced completion configuration with LLM integration
-
 ---@type LazySpec
 return {
     {
